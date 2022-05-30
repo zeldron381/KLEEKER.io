@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".GameActivity">
+<TextView
+    android:id="@+id/text_view_sum"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="5"
+    android:layout_gravity="center"
+    android:textColor="@color/black"
+    android:textSize="24dp"
+    android:textAlignment="center"
+    android:hint="Сумма" />
+    <ImageView
+        android:id="@+id/image_view_ben"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+    <TextView
+        android:id="@+id/text_view_prize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:hint="Звание" />
+    <Button
+        android:id="@+id/button_click"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4.9"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:text="Клик" />
+
+
+</LinearLayout>
