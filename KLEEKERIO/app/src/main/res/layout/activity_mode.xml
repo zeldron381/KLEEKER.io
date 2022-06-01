@@ -20,21 +20,14 @@
 
     <Button
         android:id="@+id/button_syntax"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:textSize="24dp"
         android:text="ГРАМОТНОСТЬ" />
 
     <Button
-        android:id="@+id/words"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="24dp"
-        android:text="БУКВЕННОСТЬ" />
-
-    <Button
         android:id="@+id/survive"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:textSize="24dp"
         android:text="ВЫЖИВАНИЕ" />

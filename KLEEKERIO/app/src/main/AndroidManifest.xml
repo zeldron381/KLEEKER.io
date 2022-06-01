@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KLEEKERIO">
         <activity
+            android:name=".ModeSelect"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".SurvivalMode"
+            android:exported="true">
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
