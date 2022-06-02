@@ -9,47 +9,40 @@
     tools:context=".SurvivalMode">
 
     <TextView
-        android:id="@+id/text_view_time"
+        android:id="@+id/text_view_congrats"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="24dp"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:hint="ВРЕМЯ:" />
+        android:text="Результаты:"/>
     <TextView
-        android:id="@+id/text_view_SurvText"
+        android:id="@+id/text_view_correct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="24dp"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:text="Текст:" />
-    <TextView
-        android:id="@+id/text_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="24dp"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:hint="Здесь будет текст" />
+        android:hint="правильные слова" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:textSize="50dp" />
+        android:textSize="50dp"
+        android:text="из"/>
 
-    <EditText
-        android:id="@+id/text_view_SurvInp"
+    <TextView
+        android:id="@+id/text_view_total"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ввод"
-        android:inputType="text"
         android:textAlignment="center"
-        android:textColor="@color/black"
         android:textSize="24dp"
-        android:textStyle="bold" />
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:hint="всего слов" />
+
 
 </LinearLayout>
